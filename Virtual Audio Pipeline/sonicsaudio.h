@@ -46,8 +46,8 @@ DEFINE_GUIDSTRUCT("946A7B1A-EBBC-422a-A81F-F07C8D40D3B4", NAME_SONICSAUDIO);
 #define D_VERBOSE                   DEBUGLVL_VERBOSE        
 #define D_TERSE                     DEBUGLVL_TERSE          
 #define D_ERROR                     DEBUGLVL_ERROR          
-#define DPF                         _DbgPrintF
-#define DPF_ENTER(x)                DPF(D_FUNC, x)
+#define DPF                         
+#define DPF_ENTER(x)
 
 // Channel orientation
 #define CHAN_LEFT                   0
